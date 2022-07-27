@@ -1,0 +1,187 @@
+img {
+    width: 100%;
+    height: 100%;
+}
+
+img.fotoprofil{
+    border-radius: 100%;
+}
+
+.container{
+    width: 900px;
+    height: fit-content;
+    border: 0px solid #333;
+    margin: 30px auto;
+    padding: 5px;
+    box-sizing: border-box;
+    background-color: #f5f5f5;
+    display: flex;
+    /*flex-wrap: inline;*/
+    justify-content: space-between;
+}
+
+.container div {
+    width: fit-content;
+    background-color: white;
+    margin: 5px;
+ 
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: fit-content;
+    margin-bottom: 20px;
+    border-radius: 5px;
+
+}
+.cards div {
+    width: 190px;
+    margin-top: 0px;
+    
+}
+.photo{
+    height: 110px;
+    
+}
+.title{
+    height: 25px;
+    margin-left: 5px;
+    position: relative;
+    top: 5px;
+}
+.subtitle{
+    height: 20px;
+    color: grey;
+    position: relative;
+    bottom: 6px;
+    
+}
+.description{
+    height: fit-content;
+    margin-top: 30px;
+}
+
+
+
+.buttons {
+    height: fit-content;
+    display: flex;
+    justify-content: flex-start;
+
+   
+}
+
+.buttons div {
+    width: fit-content;
+    margin-top: 15px;
+    color: blue;
+    
+}
+.dropdown{
+    height: 15px;
+    position: relative;
+    left: 37px;
+}
+
+.buttons2 {
+
+    /*height: fit-content;*/
+    width: 450px;
+    display: flex;
+    flex: 1;
+    margin-left: 0;
+    max-width: 100%;
+    width: 100%;
+    justify-content: flex-end;
+    
+   
+}
+
+.buttons2 div {
+    width: 15px;
+    height: 15px;
+    /*background-color: blue;*/
+    
+}
+
+.profile {
+    height: fit-content;
+    display: flex;
+   justify-content: flex-start;
+   
+   
+}
+
+.profile div {
+    width: fit-content;
+   
+    
+}
+
+.fotoprofil{
+    height: 25px;
+    width: 25px;
+    position: relative;
+    top: 6px;
+}
+
+.namawaktu {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    position: relative;
+    top: 8px;
+    
+    
+}
+.namawaktu div {
+   width: fit-content;
+   /*background-color: #f5f5f5;*/
+   
+    
+}
+.waktu{
+color: grey;
+/*position: relative;*/
+/*bottom: 8px;*/
+}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+/*.close {*/
+/*  color: #aaaaaa;*/
+/*  float: right;*/
+/*  font-size: 28px;*/
+/*  font-weight: bold;*/
+/*}*/
+
+/*.close:hover,*/
+/*.close:focus {*/
+/*  color: #000;*/
+/*  text-decoration: none;*/
+/*  cursor: pointer;*/
+/*}*/
